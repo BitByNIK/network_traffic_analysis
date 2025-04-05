@@ -21,6 +21,6 @@ def read_csv_files_in_directory(data_directory_path: str, cache_directory_path: 
 
 
 def display_top_items(msg: str, data: pd.Series) -> None:
-    print(f"\n{msg}:")
+    print(f"{msg}:")
     for item, count in data.items():
         print(f"{item}: {count}")
